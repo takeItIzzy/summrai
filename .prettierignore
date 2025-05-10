@@ -1,0 +1,24 @@
+# 构建产物
+.next
+dist
+build
+out
+
+# 依赖目录
+node_modules
+
+# 缓存
+.cache
+
+# 日志
+*.log
+
+# 锁文件
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# 其他
+.DS_Store
+.env*
+!.env.example 
